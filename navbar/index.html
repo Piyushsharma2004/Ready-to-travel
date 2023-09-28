@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ready To Travel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet/less" type="text/css" href="bootstrap.scss" />
+    <script
+      src="https://kit.fontawesome.com/d090e259b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+
+
+    <!-- navbar for laptop and desktop start -->
+    <header
+    class="tesla-navbar video-container container-mobile "
+  >
+    <nav style="z-index: 3" class="d-flex navbar navbar-space-desktop">
+      <div class="">
+        <img
+          src="assets/travel-logo.png"
+          alt=""
+          style="height: 50px; margin-left: 20px;  "
+        />
+      </div>
+      <!-- main page - main navbar button  -->
+
+      <div class="navbar-space d-flex flex-row justify-content-center">
+        <button
+          class="tesla-navbar-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          id="myButton"
+          data-bs-target="#offcanvasTop1"
+          aria-controls="offcanvasTop1"
+        >
+          Category
+        </button>
+        <button
+          class="tesla-navbar-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          id="myButton1"
+          data-bs-target="#offcanvasTop2"
+          aria-controls="offcanvasTop2"
+        >
+          Planing
+        </button>
+        <button
+          class="tesla-navbar-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          id="myButton2"
+          data-bs-target="#offcanvasTop3"
+          aria-controls="offcanvasTop3"
+        >
+          Hotels
+        </button>
+        <button
+          class="tesla-navbar-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          id="myButton3"
+          data-bs-target="#offcanvasTop4"
+          aria-controls="offcanvasTop4"
+          style="margin-right: 25px"
+        >
+          Book Rides
+        </button>
+       <a href="/page-local-fame/fame.html"> <button
+          class="tesla-navbar-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          id="myButton4"
+          data-bs-target="#offcanvasTop23"
+          aria-controls="offcanvasTo"
+          style="margin-right: 25px"
+        >
+          Local Fame
+        </button></a>
+      </div>
+
+      <!-- main page user, language   -->
+
+      <div class="d-flex navbar-connect-icon">
+        <a
+          data-bs-toggle="offcanvas"
+          href="#offcanvasRight"
+          role="button"
+          aria-controls="offcanvasExample"
+          ><i
+            class="fa-regular fa-circle-user fa-lg"
+            style="color: #ffffff"
+          ></i
+        ></a>
+      </div>
+
+      <!--this is the nav bar offcanvas modal -->
+      <section class="all-navbar-flex-item">
+        <!--this is the nav bar offcanvas 1 cars modal -->
+        <div
+          class="offcanvas top-padding offcanvas-top"
+          tabindex="-1"
+          id="offcanvasTop1"
+          aria-labelledby="offcanvasTopLabel"
+        >
+          <div class="offcanvas-body">
+            <nav class="d-flex">
+              <div class="">
+                <img
+                  src="assets/travel-logo.png"
+                  alt=""
+                  style="
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                  "
+                />
+              </div>
+
+              <div
+                class="navbar-space d-flex flex-row justify-content-center"
+              >
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton5"
+                  data-bs-target="#offcanvasTop1"
+                  aria-controls="offcanvasTop1"
+                >
+                  Category
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton6"
+                  data-bs-target="#offcanvasTop2"
+                  aria-controls="offcanvasTop2"
+                >
+                  Planing
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton7"
+                  data-bs-target="#offcanvasTop3"
+                  aria-controls="offcanvasTop3"
+                >
+                  Hotels
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton8"
+                  data-bs-target="#offcanvasTop4"
+                  aria-controls="offcanvasTop4"
+                >
+                  Book rides
+                </button>
+                <a href="/page-local-fame/fame.html"><button
+                    style="margin-right: 10px"
+                    class="tesla-navbar-button-1"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    id="myButton9"
+                    data-bs-target=""
+                    aria-controls=""
+                  >
+                    Local Fame
+                  </button></a
+                >
+              </div>
+
+              <div class="d-flex navbar-connect-icon">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasRight"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  ><i
+                    class="fa-regular fa-circle-user fa-lg"
+                    style="color: #535353"
+                  ></i
+                ></a>
+              </div>
+            </nav>
+
+            <div class="d-flex flex-row">
+              <div class="top-navbar-icon-div top-navbar-icon-div-start">
+                <a href="/page-historical/index.html">
+                  <img src="assets/nav-historical.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Historical</h1>
+              </div>
+
+              <div class="top-navbar-icon-div" style="margin-left: 30px">
+                <a href="/page-Trekking/index.html">
+                  <img src="assets/nav-trekking.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Trekking</h1>
+              </div>
+
+              <div class="top-navbar-icon-div" style="margin-left: 30px">
+                <a href="/page-temple/index.html">
+                  <img src="assets/nav-temple.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Temple</h1>
+              </div>
+
+              <div class="top-navbar-icon-div-last">
+                <a href="/page-temple/index.html">
+                  <img src="assets/nav-waterfall.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Waterfall</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--this is the nav bar offcanvas 2 Energy modal -->
+        <div
+          class="offcanvas offcanvas1 top-padding offcanvas-top"
+          tabindex="-1"
+          id="offcanvasTop2"
+          aria-labelledby="offcanvasTopLabel"
+        >
+          <div class="offcanvas-body">
+            <nav class="d-flex">
+              <div class="">
+                <img
+                  src="assets/travel-logo.png"
+                  alt=""
+                  style="
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                  "
+                />
+              </div>
+
+              <div
+                class="navbar-space d-flex flex-row justify-content-center"
+              >
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton5"
+                  data-bs-target="#offcanvasTop1"
+                  aria-controls="offcanvasTop1"
+                >
+                  Category
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton6"
+                  data-bs-target="#offcanvasTop2"
+                  aria-controls="offcanvasTop2"
+                >
+                  Planing
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton7"
+                  data-bs-target="#offcanvasTop3"
+                  aria-controls="offcanvasTop3"
+                >
+                  Hotels
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton8"
+                  data-bs-target="#offcanvasTop4"
+                  aria-controls="offcanvasTop4"
+                >
+                  Book rides
+                </button>
+                <a href="/page-local-fame/fame.html"><button
+                    style="margin-right: 10px"
+                    class="tesla-navbar-button-1"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    id="myButton9"
+                    data-bs-target=""
+                    aria-controls=""
+                  >
+                    Local Fame
+                  </button></a
+                >
+              </div>
+
+              <div class="d-flex navbar-connect-icon">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasRight"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  ><i
+                    class="fa-regular fa-circle-user fa-lg"
+                    style="color: #535353"
+                  ></i
+                ></a>
+              </div>
+            </nav>
+
+            <div class="d-flex flex-row">
+              <div class="top-navbar-icon-div top-navbar-icon-div-start">
+                <a href="/solarpanels/solarpanel.html"
+                  ><img src="assets/nav-vr.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Visual Reality</h1>
+              </div>
+
+              <div class="top-navbar-icon-div">
+                <a href="/Solar-Roof/solarroof.html">
+                  <img src="assets/nav-ar.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">
+                  Augmented Reality
+                </h1>
+              </div>
+
+              <div class="top-navbar-icon-div">
+                <a href="/powerwall/powerwall.html"
+                  ><img src="assets/nav-ai.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Ai Assistance</h1>
+              </div>
+
+              <div class="top-navbar-icon-div-last">
+                <a href="/megapack/Megapack.html">
+                  <img src="assets/nav-guide.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Person Guide</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--end-->
+
+        <!--this is the nav bar hotel -->
+        <div
+          class="offcanvas offcanvas2 top-padding offcanvas-top"
+          tabindex="-1"
+          id="offcanvasTop3"
+          aria-labelledby="offcanvasTopLabel"
+        >
+          <div class="offcanvas-body">
+            <nav class="d-flex">
+              <div class="">
+                <img
+                  src="assets/travel-logo.png"
+                  alt=""
+                  style="
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                  "
+                />
+              </div>
+
+              <div
+                class="navbar-space d-flex flex-row justify-content-center"
+              >
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton5"
+                  data-bs-target="#offcanvasTop1"
+                  aria-controls="offcanvasTop1"
+                >
+                  Category
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton6"
+                  data-bs-target="#offcanvasTop2"
+                  aria-controls="offcanvasTop2"
+                >
+                  Planing
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton7"
+                  data-bs-target="#offcanvasTop3"
+                  aria-controls="offcanvasTop3"
+                >
+                  Hotels
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton8"
+                  data-bs-target="#offcanvasTop4"
+                  aria-controls="offcanvasTop4"
+                >
+                  Book rides
+                </button>
+                <a href="/page-local-fame/fame.html"><button
+                    style="margin-right: 10px"
+                    class="tesla-navbar-button-1"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    id="myButton9"
+                    data-bs-target=""
+                    aria-controls=""
+                  >
+                    Local Fame
+                  </button></a
+                >
+              </div>
+
+              <div class="d-flex navbar-connect-icon">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasRight"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  ><i
+                    class="fa-regular fa-circle-user fa-lg"
+                    style="color: #535353"
+                  ></i
+                ></a>
+              </div>
+            </nav>
+
+            <div class="d-flex flex-row">
+              <div class="top-navbar-icon-div" style="margin-left: 25%">
+                <a href="/page-luxury-hotel/index.html">
+                  <img src="assets/nav-5-star.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Luxury Hotels</h1>
+              </div>
+
+              <div class="top-navbar-icon-div">
+                <a href="/page-middle-class-hotel/index.html"
+                  ><img src="assets/nav-2-star.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">
+                  affordable Hotel
+                </h1>
+              </div>
+
+              <div class="top-navbar-icon-div">
+                <a href="/page-tent-house/index.html">
+                  <img src="assets/nav-tent-house.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Tent House</h1>
+              </div>
+              <div class="top-navbar-icon-div-last">
+                <a href="/page-poot-hotel/index.html">
+                  <img src="assets/nav-poor-hotel.png" class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Cheap Hotel</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--end-->
+        <!--this is the nav bar offcanvas 4 Discover modal -->
+        <div
+          class="offcanvas offcanvas3 top-padding offcanvas-top"
+          tabindex="-1"
+          id="offcanvasTop4"
+          aria-labelledby="offcanvasTopLabel"
+        >
+          <div class="offcanvas-body" style="z-index: 100">
+            <nav class="d-flex">
+              <div class="">
+                <img
+                  src="assets/travel-logo.png"
+                  alt=""
+                  style="
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                  "
+                />
+              </div>
+
+              <div
+                class="navbar-space d-flex flex-row justify-content-center"
+              >
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton5"
+                  data-bs-target="#offcanvasTop1"
+                  aria-controls="offcanvasTop1"
+                >
+                  Category
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton6"
+                  data-bs-target="#offcanvasTop2"
+                  aria-controls="offcanvasTop2"
+                >
+                  Planing
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton7"
+                  data-bs-target="#offcanvasTop3"
+                  aria-controls="offcanvasTop3"
+                >
+                  Hotels
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton8"
+                  data-bs-target="#offcanvasTop4"
+                  aria-controls="offcanvasTop4"
+                >
+                  Book rides
+                </button>
+                <a href="/page-local-fame/fame.html"><button
+                    style="margin-right: 10px"
+                    class="tesla-navbar-button-1"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    id="myButton9"
+                    data-bs-target=""
+                    aria-controls=""
+                  >
+                    Local Fame
+                  </button></a
+                >
+              </div>
+
+              <div class="d-flex navbar-connect-icon">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasRight"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  ><i
+                    class="fa-regular fa-circle-user fa-lg"
+                    style="color: #535353"
+                  ></i
+                ></a>
+              </div>
+            </nav>
+
+            <div class="d-flex flex-row">
+              <div class="top-navbar-icon-div" style="margin-left: 17%">
+                <a href="/charging/charging.html">
+                  <img
+                    src="assets/nav-bus.png"
+                    class="top-icon"
+                    style="height: 90px; margin-bottom: 10px"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Bus Schedules</h1>
+              </div>
+
+              <div class="top-navbar-icon-div">
+                <a href="/Home-charging/home-charging.html"
+                  ><img
+                    src="assets/nav-ev-rent.png"
+                    class="top-icon"
+                    style="height: 90px; margin-bottom: 10px"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Two Wheelers</h1>
+              </div>
+
+              <div class="top-navbar-icon-div">
+                <a href="/supercharger/supercharger.html">
+                  <img
+                    src="assets/nav-car-rent.png"
+                    class="top-icon"
+                    style="height: 90px; margin-bottom: 10px"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Car Rent</h1>
+              </div>
+              <div class="top-navbar-icon-div-last">
+                <a href="/supercharger/supercharger.html">
+                  <img
+                    src="assets/nav-ev-station.png"
+                    class="top-icon"
+                    style="height: 90px; margin-bottom: 10px"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">
+                  EV Charging Station
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--end-->
+        <!--this is the nav bar offcanvas 3 Charging modal -->
+        <div
+          style="z-index: 6"
+          class="offcanvas offcanvas4 top-padding offcanvas-top"
+          tabindex="-1"
+          id="offcanvasTop5"
+          aria-labelledby="offcanvasTopLabel"
+        >
+          <div class="offcanvas-body">
+            <nav class="d-flex">
+              <div class="">
+                <img
+                  src="assets/travel-logo.png"
+                  alt=""
+                  style="
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                  "
+                />
+              </div>
+
+              <div
+                class="navbar-space d-flex flex-row justify-content-center"
+              >
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton5"
+                  data-bs-target="#offcanvasTop1"
+                  aria-controls="offcanvasTop1"
+                >
+                  Category
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton6"
+                  data-bs-target="#offcanvasTop2"
+                  aria-controls="offcanvasTop2"
+                >
+                  Planing
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton7"
+                  data-bs-target="#offcanvasTop3"
+                  aria-controls="offcanvasTop3"
+                >
+                  Hotels
+                </button>
+                <button
+                  class="tesla-navbar-button-1"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  id="myButton8"
+                  data-bs-target="#offcanvasTop4"
+                  aria-controls="offcanvasTop4"
+                >
+                  Book rides
+                </button>
+                <a href="/page-local-fame/fame.html"><button
+                    style="margin-right: 10px"
+                    class="tesla-navbar-button-1"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    id="myButton9"
+                    data-bs-target=""
+                    aria-controls=""
+                  >
+                    Local Fame
+                  </button></a
+                >
+              </div>
+
+              <div class="d-flex navbar-connect-icon">
+                <a
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasRight"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  ><i
+                    class="fa-regular fa-circle-user fa-lg"
+                    style="color: #535353"
+                  ></i
+                ></a>
+              </div>
+            </nav>
+
+            <div class="d-flex flex-row">
+              <div
+                class="top-navbar-icon-div top-navbar-icon-div-start"
+              ></div>
+              <div
+                class="top-navbar-icon-div top-navbar-icon-div-start"
+              ></div>
+
+              <div class="top-navbar-icon-div-last">
+                <a href="/shop/shop.html">
+                  <img
+                    src="assets/Mega-Menu-Charging-Home-Charging.png"
+                    class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Charging</h1>
+              </div>
+              <div class="top-navbar-icon-div-last">
+                <a href="/shop/shop.html">
+                  <img
+                    src="assets/Mega-Menu-Shop-Vehicle-Accessories.png"
+                    class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">
+                  Vehicle Accessories
+                </h1>
+              </div>
+              <div class="top-navbar-icon-div-last">
+                <a href="/shop/shop.html">
+                  <img
+                    src="assets/Mega-Menu-Shop-Apparel.webp"
+                    class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Apparel</h1>
+              </div>
+
+              <div class="top-navbar-icon-div-last">
+                <a href="/shop/shop.html">
+                  <img
+                    src="assets/Mega-Menu-Shop-Lifestyle.png"
+                    class="top-icon"
+                /></a>
+                <h1 class="top-navbar-icon-div-heading">Lifestyles</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User info info offcanvas  -->
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Profile
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body"></div>
+        </div>
+
+        <!--end-->
+      </section>
+    </nav>
+  </header>
+  <!-- navbar for laptop and desktop End -->
+
+    <script src="/navbar/script.js"></script>
+    </body>
+    </html>
